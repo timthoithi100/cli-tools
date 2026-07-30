@@ -1,6 +1,7 @@
 Podman (Pod Manager) is a free, open-source, and Linux-native container engine designed to develop, manage, and run Open Container Initiative (OCI) containers and pods. Created by Red Hat, it serves as a lightweight, secure, and drop-in alternative to Docker.
 
-##Key Features
+## Key Features
+
 Daemonless Architecture: Podman does not rely on a background server process (like Docker's dockerd). It interacts directly with the Linux kernel via libpod.
 
 Rootless by Default: Users can run containers without needing root privileges, significantly reducing host system security risks.
