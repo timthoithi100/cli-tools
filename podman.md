@@ -9,6 +9,7 @@ Rootless by Default: Users can run containers without needing root privileges, s
 Kubernetes Integration: Unlike Docker, Podman natively understands "Pods" (groups of containers sharing resources). It can interpret and generate Kubernetes YAML manifests directly.
 
 Docker Compatibility: The syntax is identical to Docker's command-line interface. You can easily transition by setting up a command alias: alias docker=podman.
+
 ---
 
 ## 1. System & Information
